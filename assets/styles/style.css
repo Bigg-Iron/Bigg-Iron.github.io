@@ -1,1 +1,15 @@
 /* styles */
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.navbar {
+    letter-spacing: 4px;
+    background-color: rgba(226, 227, 232, 0.87);
+}
