@@ -13,3 +13,13 @@
     letter-spacing: 4px;
     background-color: rgba(226, 227, 232, 0.87);
 }
+
+.jumbotron { 
+    background-color: #1174218c; /* Dark Green */
+    color: #ffffff;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
