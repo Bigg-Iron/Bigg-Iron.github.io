@@ -151,3 +151,9 @@ h2 {
     background-color: #4680508c;
     color: #fff;
 }
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #1174218c;
+}
