@@ -273,7 +273,6 @@
         </div>
     </div>
 
-    <!-- Contact Container -->
     <!-- Container (Contact Section) -->
     <div class="container-fluid bg-grey">
         <h2 class="text-center">CONTACT</h2>
@@ -307,22 +306,44 @@
         </div>
     </div>
 
-    <!-- <div class="container">
+    <!-- Add Google Maps -->
+    <div id="googleMap" style="height:400px;width:100%;"></div>
+    <script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+            var mapProp = {
+                center: myCenter,
+                zoom: 12,
+                scrollwheel: false,
+                draggable: true,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            var marker = new google.maps.Marker({
+                position: myCenter
+            });
+            marker.setMap(map);
+        }
+    </script>
+
+
+<!-- <div class="container">
     <video autoplay muted loop id="myVideo">
         <source src="assets/images/Golden_Gate_Traffic.mp4" type="video/mp4">
         </video>
-        </div> -->
-
+    </div> -->
+    
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACBlirO36YqObG_qKkz9NxVOW9WYz34fg&callback=myMap"></script>
     <script src="assets/scripts/app.js"></script>
-
+    
 </body>
 
 </html>
