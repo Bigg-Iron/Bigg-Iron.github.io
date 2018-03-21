@@ -28,7 +28,6 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
     $(".slideanim").each(function() {
-      console.log(`scrolling`);
       var pos = $(this).offset().top;
 
       var winTop = $(window).scrollTop();
