@@ -1,7 +1,7 @@
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #797878;
 }
 h2 {
     font-size: 24px;
@@ -18,8 +18,8 @@ h4 {
     margin-bottom: 30px;
 }  
 .jumbotron {
-    background-color: #1174218c;
-    color: #fff;
+    background-color: #f6f6f6;
+    color: rgb(117, 117, 117);
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
 }
@@ -30,11 +30,11 @@ h4 {
     background-color: #f6f6f6;
 }
 .logo-small {
-    color: #1174218c;
+    color: rgb(105, 105, 105);
     font-size: 50px;
 }
 .logo {
-    color: #1174218c;
+    color: rgb(109, 109, 109);
     font-size: 200px;
 }
 .thumbnail {
@@ -49,13 +49,13 @@ h4 {
 }
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #1174218c;
+    color: rgb(78, 78, 78);
 }
 .carousel-indicators li {
-    border-color: #1174218c;
+    border-color: rgb(107, 106, 106);
 }
 .carousel-indicators li.active {
-    background-color: #1174218c;
+    background-color: rgb(37, 37, 37);
 }
 .item h4 {
     font-size: 19px;
@@ -68,7 +68,7 @@ h4 {
     font-style: normal;
 }
 .panel {
-    border: 1px solid #1174218c; 
+    border: 1px solid rgb(145, 144, 144); 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
 }
@@ -76,13 +76,13 @@ h4 {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 .panel-footer .btn:hover {
-    border: 1px solid #1174218c;
+    border: 1px solid rgb(128, 127, 127);
     background-color: #fff !important;
-    color: #1174218c;
+    color: rgb(100, 99, 99);
 }
 .panel-heading {
-    color: #fff !important;
-    background-color: #1174218c !important;
+    color: rgb(116, 115, 115) !important;
+    background-color: #fff !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -97,17 +97,17 @@ h4 {
     font-size: 32px;
 }
 .panel-footer h4 {
-    color: #aaa;
+    color: #6b6b6b;
     font-size: 14px;
 }
 .panel-footer .btn {
     margin: 15px 0;
-    background-color: #1174218c;
-    color: #fff;
+    background-color: #fff;
+    color: rgb(126, 125, 125);
 }
 .navbar {
     margin-bottom: 0;
-    background-color: #1174218c;
+    background-color: #fff;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -117,10 +117,10 @@ h4 {
     font-family: Montserrat, sans-serif;
 }
 .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    color: rgba(110, 109, 109, 0.699) !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #1174218c !important;
+    color: rgb(56, 56, 56) !important;
     background-color: #fff !important;
 }
 .navbar-default .navbar-toggle {
@@ -130,7 +130,7 @@ h4 {
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #1174218c;
+    color: rgb(110, 110, 110);
 }
 .slideanim {visibility:hidden;}
 .slide {
