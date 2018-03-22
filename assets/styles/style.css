@@ -1,16 +1,19 @@
 body {
-    font: 400 15px Lato, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     line-height: 1.8;
     color: #797878;
 }
 h2 {
+    font-family: 'Source Code Pro', monospace;
     font-size: 24px;
     text-transform: uppercase;
+    text-align: center;
     color: #303030;
     font-weight: 600;
     margin-bottom: 30px;
 }
 h4 {
+    font-family: 'Source Code Pro', monospace;
     font-size: 19px;
     line-height: 1.375em;
     color: #303030;
@@ -18,10 +21,11 @@ h4 {
     margin-bottom: 30px;
 }  
 .jumbotron {
-    background-color: #f6f6f6;
+
     color: rgb(117, 117, 117);
     padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    background: url(../images/beam_shade.svg);
 }
 .container-fluid {
     padding: 60px 50px;
@@ -107,14 +111,14 @@ h4 {
 }
 .navbar {
     margin-bottom: 0;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.74);
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 .navbar li a, .navbar .navbar-brand {
     color: rgba(110, 109, 109, 0.699) !important;
@@ -174,4 +178,8 @@ footer .glyphicon {
   .logo {
       font-size: 150px;
   }
+}
+
+.col-sm-4 {
+    text-align: center;
 }
