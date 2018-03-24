@@ -3,6 +3,7 @@ body {
     line-height: 1.8;
     color: #797878;
 }
+
 h2 {
     font-family: 'Source Code Pro', monospace;
     font-size: 24px;
@@ -12,6 +13,7 @@ h2 {
     font-weight: 600;
     margin-bottom: 30px;
 }
+
 h4 {
     font-family: 'Source Code Pro', monospace;
     font-size: 19px;
@@ -20,6 +22,7 @@ h4 {
     font-weight: 400;
     margin-bottom: 30px;
 }  
+
 .jumbotron {
 
     color: rgb(117, 117, 117);
@@ -27,25 +30,39 @@ h4 {
     font-family: 'Source Code Pro', monospace;
     background: url(../images/beam_shade.svg);
 }
+
 .container-fluid {
     padding: 60px 50px;
 }
+
 .bg-grey {
     background-color: #f6f6f6;
 }
+
 .logo-small {
     color: rgb(105, 105, 105);
     font-size: 50px;
 }
+
 .logo {
     color: rgb(109, 109, 109);
     font-size: 200px;
 }
+
 .thumbnail {
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
+    transition: box-shadow 0.5s;
 }
+
+.thumbnail:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
 .thumbnail img {
     width: 100%;
     height: 100%;
@@ -140,8 +157,8 @@ footer .glyphicon {
 .slide {
     animation-name: slide;
     -webkit-animation-name: slide;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
     visibility: visible;
 }
 @keyframes slide {
