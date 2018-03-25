@@ -200,3 +200,8 @@ footer .glyphicon {
 .col-sm-4 {
     text-align: center;
 }
+
+.fa-github:before {
+    content: "\f09b";
+    color: black;
+}

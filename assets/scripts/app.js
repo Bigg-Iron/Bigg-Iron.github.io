@@ -1,7 +1,7 @@
 $(document).ready(function() {
   console.log(`app.js`);
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on("click", function(event) {
+  $(".navbar a, #about a, footer a[href='#myPage']").on("click", function(event) {
     console.log(`click`);
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
