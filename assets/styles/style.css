@@ -1,15 +1,206 @@
-/* styles */
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+body {
+    font-family: 'Source Code Pro', monospace;
+    line-height: 1.8;
+    color: #797878;
 }
 
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}  
+
+.jumbotron {
+
+    color: rgb(117, 117, 117);
+    padding: 100px 25px;
+    font-family: 'Source Code Pro', monospace;
+    background: url(../images/beam_shade.svg);
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.logo-small {
+    color: rgb(105, 105, 105);
+    font-size: 50px;
+}
+
+.logo {
+    color: rgb(109, 109, 109);
+    font-size: 200px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    transition: box-shadow 0.5s;
+}
+
+.thumbnail:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: rgb(78, 78, 78);
+}
+.carousel-indicators li {
+    border-color: rgb(107, 106, 106);
+}
+.carousel-indicators li.active {
+    background-color: rgb(37, 37, 37);
+}
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+.item span {
+    font-style: normal;
+}
+.panel {
+    border: 1px solid rgb(145, 144, 144); 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+    border: 1px solid rgb(128, 127, 127);
+    background-color: #fff !important;
+    color: rgb(100, 99, 99);
+}
+.panel-heading {
+    color: rgb(116, 115, 115) !important;
+    background-color: #fff !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer {
+    background-color: white !important;
+}
+.panel-footer h3 {
+    font-size: 32px;
+}
+.panel-footer h4 {
+    color: #6b6b6b;
+    font-size: 14px;
+}
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #fff;
+    color: rgb(126, 125, 125);
+}
 .navbar {
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.74);
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
     letter-spacing: 4px;
-    background-color: rgba(226, 227, 232, 0.87);
+    border-radius: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: rgba(110, 109, 109, 0.699) !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: rgb(56, 56, 56) !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(110, 110, 110);
+}
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+      font-size: 150px;
+  }
+}
+
+.col-sm-4 {
+    text-align: center;
+}
+
+.material-icons {
+    color:black;
 }
