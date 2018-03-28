@@ -201,7 +201,6 @@ footer .glyphicon {
     text-align: center;
 }
 
-.fa-github:before {
-    content: "\f09b";
-    color: black;
+.material-icons {
+    color:black;
 }
