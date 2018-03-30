@@ -12,6 +12,7 @@ h2 {
     color: #303030;
     font-weight: 600;
     margin-bottom: 30px;
+    text-decoration: underline;
 }
 
 h4 {
@@ -22,6 +23,10 @@ h4 {
     font-weight: 400;
     margin-bottom: 30px;
 }  
+
+/* h3 {
+    margin-top: 1%;
+} */
 
 .jumbotron {
 
@@ -205,17 +210,6 @@ footer .glyphicon {
     color:black;
 }
 
-.fa-github::before {
-    color:black;
-}
-
-.fa-linkedin::before {
-    color:black;
-}
-
-.fa-angellist::before {
-    color:black;
-}
 
 a {
     color:rgb(61, 61, 61);
@@ -229,4 +223,18 @@ a:hover {
 
 .fas {
     margin:1%;
+}
+
+.form-control {
+    margin-top:2%;
+}
+
+.social-iconz {
+    margin: 3%;
+    padding: 2%;
+    text-align:center;
+}
+
+.centaur {
+    text-align: center;
 }
