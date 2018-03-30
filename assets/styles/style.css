@@ -204,3 +204,29 @@ footer .glyphicon {
 .material-icons {
     color:black;
 }
+
+.fa-github::before {
+    color:black;
+}
+
+.fa-linkedin::before {
+    color:black;
+}
+
+.fa-angellist::before {
+    color:black;
+}
+
+a {
+    color:rgb(61, 61, 61);
+}
+
+a:hover {
+
+    color:rgb(46, 46, 46);
+    
+}
+
+.fas {
+    margin:1%;
+}
