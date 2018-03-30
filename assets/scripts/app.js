@@ -1,23 +1,9 @@
 $(document).ready(function() {
-  console.log(`∩
-
-  　　　　　　　＼＼
+  console.log(`
   
-  　　　　　　　／　 ）
+   ° ͜ʖ ° 
   
-  ⊂＼＿／￣￣￣　 ／
-  
-  　＼＿／   ° ͜ʖ ° （
-  
-  　　　）　　 　／⌒＼
-  
-  　　／　 ＿＿＿／⌒＼⊃
-  
-  　（　 ／
-  
-  　　＼＼
-  
-       U`);
+   `);
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, #about a, footer a[href='#myPage']").on("click", function(event) {
     console.log(`click`);
